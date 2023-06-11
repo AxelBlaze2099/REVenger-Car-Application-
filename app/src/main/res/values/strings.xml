@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">REVenger</string>
+    <string-array name="select">
+        <item>Sedan</item>
+        <item>Hatchback</item>
+        <item>Suv</item>
+    </string-array>
+</resources>

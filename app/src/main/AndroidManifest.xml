@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.revenger">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.REVenger"
+        tools:targetApi="31">
+        <activity
+            android:name=".logo05info"
+            android:exported="false" />
+        <activity
+            android:name=".logo04info"
+            android:exported="false" />
+        <activity
+            android:name=".logo03info"
+            android:exported="false" />
+        <activity
+            android:name=".logo02info"
+            android:exported="false" />
+        <activity
+            android:name=".logo01info"
+            android:exported="false" />
+        <activity
+            android:name=".dealerinfo"
+            android:exported="false" />
+        <activity
+            android:name=".ertigaMUV"
+            android:exported="false" />
+        <activity
+            android:name=".vellfireMUV"
+            android:exported="false" />
+        <activity
+            android:name=".triberMUV"
+            android:exported="false" />
+        <activity
+            android:name=".carensMUV"
+            android:exported="false" />
+        <activity
+            android:name=".marazzoMUV"
+            android:exported="false" />
+        <activity
+            android:name=".carnivalMUV"
+            android:exported="false" />
+        <activity
+            android:name=".innovaMUV"
+            android:exported="false" />
+        <activity
+            android:name=".xl6MUV"
+            android:exported="false" />
+        <activity
+            android:name=".venueCSUV"
+            android:exported="false" />
+        <activity
+            android:name=".cruiserCSUV"
+            android:exported="false" />
+        <activity
+            android:name=".punchCSUV"
+            android:exported="false" />
+        <activity
+            android:name=".brezzaCSUV"
+            android:exported="false" />
+        <activity
+            android:name=".sonetCSUV"
+            android:exported="false" />
+        <activity
+            android:name=".magniteCSUV"
+            android:exported="false" />
+        <activity
+            android:name=".harrierCSUV"
+            android:exported="false" />
+        <activity
+            android:name=".xuv300CSUV"
+            android:exported="false" />
+        <activity
+            android:name=".seltosSUV"
+            android:exported="false" />
+        <activity
+            android:name=".velarSUV"
+            android:exported="false" />
+        <activity
+            android:name=".jeepSUV"
+            android:exported="false" />
+        <activity
+            android:name=".fortunerSUV"
+            android:exported="false" />
+        <activity
+            android:name=".xuv700SUV"
+            android:exported="false" />
+        <activity
+            android:name=".scorpioSUV"
+            android:exported="false" />
+        <activity
+            android:name=".alcazarSUV"
+            android:exported="false" />
+        <activity
+            android:name=".safariSUV"
+            android:exported="false" />
+        <activity
+            android:name=".poloHATCH"
+            android:exported="false" />
+        <activity
+            android:name=".altrozHATCH"
+            android:exported="false" />
+        <activity
+            android:name=".spressoHATCH"
+            android:exported="false" />
+        <activity
+            android:name=".celerioHATCH"
+            android:exported="false" />
+        <activity
+            android:name=".citroenHATCH"
+            android:exported="false" />
+        <activity
+            android:name=".swiftHATCH"
+            android:exported="false" />
+        <activity
+            android:name=".i20HATCH"
+            android:exported="false" />
+        <activity
+            android:name=".balenoHATCH"
+            android:exported="false" />
+        <activity
+            android:name=".camrySEDAN"
+            android:exported="false" />
+        <activity
+            android:name=".jaguarSEDAN"
+            android:exported="false" />
+        <activity
+            android:name=".mercedesSEDAN"
+            android:exported="false" />
+        <activity
+            android:name=".volvoSEDAN"
+            android:exported="false" />
+        <activity
+            android:name=".audiSEDAN"
+            android:exported="false" />
+        <activity
+            android:name=".octaviaSEDAN"
+            android:exported="false" />
+        <activity
+            android:name=".vernaSEDAN"
+            android:exported="false" />
+        <activity
+            android:name=".hondacity"
+            android:exported="false" />
+        <activity
+            android:name=".dealers"
+            android:exported="false" />
+        <activity
+            android:name=".muv"
+            android:exported="false" />
+        <activity
+            android:name=".compsuv"
+            android:exported="false" />
+        <activity
+            android:name=".suv"
+            android:exported="false" />
+        <activity
+            android:name=".hatchback"
+            android:exported="false" />
+        <activity
+            android:name=".sedan"
+            android:exported="false" />
+        <activity
+            android:name=".browsecars"
+            android:exported="false" />
+        <activity
+            android:name=".nothing"
+            android:exported="false" />
+        <activity
+            android:name=".adminsignup"
+            android:exported="false" />
+        <activity
+            android:name=".adminlogin"
+            android:exported="false" />
+        <activity
+            android:name=".admindash"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".first"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

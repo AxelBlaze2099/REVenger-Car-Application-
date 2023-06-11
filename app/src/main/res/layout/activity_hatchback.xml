@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sedan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:paddingBottom="7dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:padding="10dp"
+            android:text="Select Car "
+            android:textColor="@color/black"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="13dp"
+                android:text="Maruti Baleno"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/hatch1" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl2"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="13dp"
+                android:text="Hyundai i20 N-Line"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/hatch2" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl3"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="280dp"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Suzuki Swift"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/hatch0" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl4"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Citroen C3"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/hatch4" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl5"
+
+
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="125dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Suzuki Celerio"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/hatch5" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl6"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Suzuki S-Presso"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/hatch3" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl7"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Tata Altroz"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-3dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="115dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/hatch6" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl8"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Volks Polo"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/hatch8" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

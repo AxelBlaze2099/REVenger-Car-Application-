@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hondacity"
+    android:background="@color/white">
+
+
+    <TableRow
+        android:layout_width="296dp"
+        android:layout_height="85dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Toyota Camry:"
+            android:textColor="@color/black"
+            android:textSize="27dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.114"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.09" />
+
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.211"
+        app:srcCompat="@drawable/sedan6" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price:"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 44.35 Lakh"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mileage:"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+19.1 kmpl"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:scrollHorizontally="false"
+            android:text="Engine: "
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif-black" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2487 cc"
+            android:textSize="18dp"  android:textColor="@color/black"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollHorizontally="false"
+            android:text="Safety: "
+            android:textColor="@color/black"
+
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif-black" />
+
+        <TextView
+            android:id="@+id/textiew17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=" 5 Star (ASEAN NCAP)"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/ttView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollHorizontally="false"
+            android:text="Fuel Type: "
+
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif-black" />
+
+        <TextView
+            android:id="@+id/extiew17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hybrid (Electric + Petrol)"
+            android:textSize="18dp"  android:textColor="@color/black"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/teVi16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollHorizontally="false"
+            android:text="Transmission: "
+
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif-black">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ttVi17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Automatic (CVT) "
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tV16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:scrollHorizontally="false"
+            android:text="Seating Capacity: "
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif-black" />
+
+        <TextView
+            android:id="@+id/tV17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 Seater"
+            android:textSize="18dp"  android:textColor="@color/black"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="111dp">
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="Check Dealers"
+            android:textColor="@color/white"
+
+
+            />
+    </TableRow>
+
+
+</TableLayout>

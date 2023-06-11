@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sedan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:paddingBottom="7dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:padding="10dp"
+            android:text="Select Car "
+            android:textColor="@color/black"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <RelativeLayout
+            android:id="@+id/rr1"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="13dp"
+                android:text="Suzuki XL6"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/muv01" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rr2"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="13dp"
+                android:text="Innova Crysta"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/muv2" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rr3"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="280dp"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Kia Carnival"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-2dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="114dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/muv3" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rr4"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Mahindra Marazzo"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/muv5" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rr5"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Kia Carens"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="-2dp"
+                android:background="@drawable/muv4" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rr6"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Renault Triber"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/muv7" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rr7"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Toyota Vellfire"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-3dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="115dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/muv6" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rr8"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Maruti Ertiga"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-2dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="114dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/muv8" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

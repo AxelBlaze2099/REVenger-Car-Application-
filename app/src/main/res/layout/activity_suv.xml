@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sedan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:paddingBottom="7dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:padding="10dp"
+            android:text="Select Car "
+            android:textColor="@color/black"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <RelativeLayout
+            android:id="@+id/rl01"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="13dp"
+                android:text="Tata  Safari"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/suv1" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl02"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="13dp"
+                android:text="Mahindra XUV700"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="-1dp"
+                android:background="@drawable/suv0" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl03"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/bg0">
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="280dp"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Mahindra Scorpio-N"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-2dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="114dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/suv2" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl04"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/bg0">
+
+            <TextView
+                android:id="@+id/hey"
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="278dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="118dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Hyundai Alcazar"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/suv3" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl05"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Toyota Fortuner"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/suv5" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl06"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Jeep Compass"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/suv4" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl07"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="RR      Velar"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-3dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="115dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/suv6" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl08"
+            android:layout_width="390dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg0"
+            android:layout_marginBottom="18dp"
+            >
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="115dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="15dp"
+                android:text="Kia Seltos"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-2dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="114dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/suv8" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
